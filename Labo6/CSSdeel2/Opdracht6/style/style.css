@@ -1,0 +1,6 @@
+ul {
+    list-style-image: url("../image/checkbox-no_optimized.png");
+}
+.checked {
+    list-style-image: url("../image/checkbox-yes_optimized.png");
+}
