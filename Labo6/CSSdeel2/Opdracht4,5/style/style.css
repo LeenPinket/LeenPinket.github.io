@@ -17,7 +17,8 @@ a:hover{
     border-style: dashed;
 }
 .huis {
-    width: 24px;
-    heigt: 24px;
+    background-repeat: no-repeat;
+    background-image: url(../image/huis.jpg);
+    padding-left: 16px;
 }
 

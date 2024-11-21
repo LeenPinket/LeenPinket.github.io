@@ -1,0 +1,51 @@
+body {
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
+    margin: 0px;
+    padding: 0px;
+}
+.wrapper {
+    widht: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1, h2 {
+    color: #007e7e;
+
+}
+h1 {
+    font-size: 150%;
+}
+h2 {
+    font-size: 130%;
+}
+.fontkleurh1 {
+    color: black;
+}
+.fontkleurh2 {
+    color: red;
+}
+footer {
+    font-size: 0.6em;
+    clear: both;
+}
+article>p>a:hover {
+    background-color: darkgoldenrod;
+}
+section>article {
+    float: right;
+    width: 70%;
+}
+#elixirs /*id en geen class omdat je dit maar 1 keer gebruikt */                               {
+    float:right;
+    width: 30%;
+    border: 1px solid green;
+    text-align: center;
+    box-sizing: border-box;
+}
+.header {
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+
+}

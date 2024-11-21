@@ -1,0 +1,79 @@
+body {
+    font-family: Times New Roman, sans-serif;
+    font-size: 1em;
+    width: 95%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
+header>hgroup {
+    background-image: url(../images/header-ricks-bloemen-fotos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100px;
+    border-radius: 10px;
+}
+header>hgroup>h1 {
+    font-size: 2em;
+}
+section {
+    background-color: lightgrey;
+    padding-left: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+a:hover {
+    color: #EF233C;
+}
+.icoon {
+    background-image: url(../images/paardenhoofd.jpg);
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
+.knooppunt{
+    background-image: url(../images/wandelknooppunt.jpg);
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
+.spel {
+    background-image: url(../images/dobbelsteen.png);
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
+.midden {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tabel {
+    border: 1px solid black;
+    text-align: left;
+    border-collapse: collapse;
+    width: 80%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+.tabel td, .tabel table th {
+    padding: 3px 3px;
+}
+.tabel thead th {
+    background-color: darkslategray;
+    color: #FFFFFF;
+    font-size: 15px;
+    border: 2px solid black;
+}
+.tabel tbody td {
+    color: black;
+    border-left: 1px solid black;
+}
+.tabel tbody .alt td {
+    background-color: darkseagreen;
+}
+.onbekend {
+    background-color: red;
+}
